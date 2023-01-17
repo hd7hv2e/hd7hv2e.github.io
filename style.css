@@ -1,0 +1,64 @@
+body {
+    display: block;
+    margin: 0px;
+   
+}
+div{
+
+    display: flex;
+
+}
+img.ooo{
+
+    position: absolute;
+    margin-left: 3400px;
+
+}
+
+img.ppp{
+    padding: 0%;
+    position: absolute;
+    margin-left: 2600px;
+}
+img.o{
+    
+    left: 10px; /* Расстояние от правого края окна браузера */
+    position: fixed; /* Фиксированное положение */
+   
+    margin-left: 36%;
+    width: 1824px;
+    
+}
+
+img.iii{
+    margin: 0px;
+
+    position: absolute;
+    margin-left: 810px;
+}
+@media screen and (max-width:400px ){
+
+    img.ooo{
+        margin: -3px;
+        margin-left: 100px;
+        
+    }
+    img.o{
+        
+        margin: -10px;
+       position: absolute;
+        
+        width: 2000px;
+        
+    }
+    img.ppp{
+        margin: -4px;
+        margin-left: 1px;
+    }
+    
+    img.iii{
+        margin-left: 30px;
+    }
+   
+  }
+ 
